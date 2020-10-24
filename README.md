@@ -8,6 +8,6 @@ For use do
 
 pkg update && pkg upgrade -y
 pkg install git
-git clone https://github.com/Warpinguin/MyTermuxMustHave/
+git clone https://github.com/Warpinguin/MyTermuxMustHave/blob/main/my_script.sh
 chmod +x my_script.sh
 ./my_script.sh
