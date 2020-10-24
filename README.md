@@ -10,7 +10,7 @@ For use do
 
  pkg install git
 
- git clone https://github.com/Warpinguin/MyTermuxMustHave/blob/main/my_script.sh
+ git clone https://github.com/Warpinguin/MyTermuxMustHave
 
  chmod +x my_script.sh
 
