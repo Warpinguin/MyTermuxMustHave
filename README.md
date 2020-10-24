@@ -12,6 +12,8 @@ For use do
 
  git clone https://github.com/Warpinguin/MyTermuxMustHave
 
+ cd MyTermuxMustHave
+
  chmod +x my_script.sh
 
  ./my_script.sh
