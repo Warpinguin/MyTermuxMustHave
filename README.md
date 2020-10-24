@@ -1,3 +1,4 @@
+DONT USE YET ! I HAVE TO FINISH THAT SCRIPT FIRST
 # MyTermuxMustHave
 My try for making basic termux "setup" as basic as it could be, but have all "must have" pkgs.
 I did it for myself coz i srew a lot so many times . . .
