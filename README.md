@@ -11,7 +11,7 @@ For use wrote this commands one (line) by one (line) :
 
  pkg install git
 
- git clone https://github.com/Warpinguin/MyTermuxMustHave
+ git clone https://github.com/Warpinguin/MyTermuxMustHave.git
 
  cd MyTermuxMustHave
 
