@@ -7,7 +7,7 @@ But if it gonna be usefull for any1 else Ill be just glad :)
 
 For use wrote this commands one (line) by one (line) :
 
- pkg update && pkg upgrade -y (opinionaly then y for yes and then i for instal)
+ pkg update && pkg upgrade -y 
 
  pkg install git
 
