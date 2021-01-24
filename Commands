@@ -1,0 +1,43 @@
+TERMUX FIRST START :
+
+termux-setup-storage 
+
+pkg install termux-api
+
+pkg install git python python2 curl root-repo unstable-repo x11-repo vim termux-tools wget moreutils perl coreutils nodejs texinfo tsu coreutils diffutils libtool make perl clang man
+
+apt-get install ncurses-utils
+
+
+PIP - SETUP OF MUST HAVE : 
+
+python3 -m pip install --upgrade pip
+
+python2 -m pip install --upgrade pip
+
+python3 -m pip install requests wheel future
+
+python2 -m pip install mechanize
+
+python2 -m pip install requests wheel future
+
+pip install requests wheel future
+
+python3 -m pip install mechanize
+
+Requirements:
+
+python3 -m pip install -r requirements.txt
+
+pip install -r requirements.txt
+
+Sudo : 
+apt update
+apt upgrade
+apt install tsu
+git clone https://gitlab.com/st42/termux-sudo
+cd termux-sudo
+cat sudo > /data/data/com.termux/files/usr/bin/sudo
+chmod 700 /data/data/com.termux/files/usr/bin/sudo
+sudo su
+sudo tsu
