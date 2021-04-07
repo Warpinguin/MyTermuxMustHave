@@ -16,5 +16,7 @@ For use wrote this commands one (line) by one (line) :
  cd MyTermuxMustHave
 
  chmod +x my_script.sh
+ 
+ termux-fix-shebang my_script.sh
 
  ./my_script.sh
