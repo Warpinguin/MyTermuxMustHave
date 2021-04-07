@@ -1,29 +1,18 @@
 TERMUX FIRST START :
 
-termux-setup-storage 
+termux-setup-storage && pkg install termux-api
 
-pkg install termux-api
-
-pkg install git python python2 curl root-repo unstable-repo x11-repo vim termux-tools wget moreutils perl coreutils nodejs texinfo tsu coreutils diffutils libtool make perl clang man
-
-apt-get install ncurses-utils
+pkg update && pkg upgrade -y && pkg install git python python2 curl root-repo unstable-repo x11-repo vim termux-tools wget moreutils perl coreutils nodejs texinfo tsu coreutils diffutils libtool make perl clang man && pkg install ncurses-utils
 
 
 PIP - SETUP OF MUST HAVE : 
 
-python3 -m pip install --upgrade pip
+python3 -m pip install --upgrade pip && python2 -m pip install --upgrade pip && python3 -m pip install requests wheel future && python2 -m pip install mechanize && python2 -m pip install requests wheel future && pip install requests wheel future && python3 -m pip install mechanize
 
-python2 -m pip install --upgrade pip
 
-python3 -m pip install requests wheel future
 
-python2 -m pip install mechanize
 
-python2 -m pip install requests wheel future
 
-pip install requests wheel future
-
-python3 -m pip install mechanize
 
 Requirements:
 
