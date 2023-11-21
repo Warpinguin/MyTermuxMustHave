@@ -19,4 +19,4 @@ For use wrote this commands one (line) by one (line) :
  
  termux-fix-shebang my_script.sh
 
- ./my_script.sh
+ bash my_script.sh
